@@ -1,0 +1,90 @@
+##DP
+###program1
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+#include<cstring>
+using namespace std;
+const int MAX_N=10000;
+const int INF=100000000;
+int n;
+double dis[MAX_N][MAX_N];
+struct Node{
+    int  x,y;
+} node[MAX_N];
+int main(){
+    while(~scanf("%d",&n)){
+    for(int i=0;i<n;i++){
+        scanf("%d%d",&node[i].x,&node[i].y);
+    }
+    for(int i=0;i<n+1;i++)
+    for(int j=0;j<n+1;j++){
+        dis[i][j]=INF;
+    }
+    dis[0][0]=0;
+    dis[0][1]=sqrt((node[1].x-node[0].x)*(node[1].x-node[0].x)+(node[1].y-node[0].y)*(node[1].y-node[0].y));
+    dis[1][0]=dis[0][1];
+    for(int i=0;i<n-1;i++){
+        for(int j=i+1;j<n-1;j++){
+            int next=max(i,j)+1;
+            double dis1,dis2;
+            dis1=sqrt((node[next].x-node[i].x)*(node[next].x-node[i].x)+(node[next].y-node[i].y)*(node[next].y-node[i].y));
+            dis2=sqrt((node[next].x-node[j].x)*(node[next].x-node[j].x)+(node[next].y-node[j].y)*(node[next].y-node[j].y));
+            dis[next][j]=min(dis[next][j],dis[i][j]+dis1);
+            dis[i][next]=min(dis[i][next],dis[i][j]+dis2);
+            dis[j][next]= dis[next][j];
+            dis[next][i]=dis[i][next];
+        }
+    }
+    double ans=INF;
+    for(int i=0;i<n-1;i++){
+        double d=sqrt((node[n-1].x-node[i].x)*(node[n-1].x-node[i].x)+(node[n-1].y-node[i].y)*(node[n-1].y-node[i].y));
+        dis[n-1][n-1]=min(dis[n-1][n-1],dis[i][n-1]+d);
+    }
+    printf("%.2f\n",dis[n-1][n-1]);
+    }
+    return 0;
+}
+
+###program2
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+#include<cstring>
+using namespace std;
+const int MAX_N=10000;
+const int INF=100000000;
+int n;
+double dis[MAX_N][MAX_N];
+double dp[MAX_N][MAX_N];
+struct Node{
+    int  x,y;
+} node[MAX_N];
+int main(){
+    while(~scanf("%d",&n)){
+
+    for(int i=0;i<n;i++){
+        scanf("%d%d",&node[i].x,&node[i].y);
+    }
+    for(int i=0;i<n;i++)
+    for(int j=0;j<n;j++){
+        //dis[i][j]=INF;
+        dis[i][j]=sqrt((node[i].x-node[j].x)*(node[i].x-node[j].x)+(node[i].y-node[j].y)*(node[i].y-node[j].y));
+    }
+    for(int i=0;i<n;i++){
+        dp[n-2][i]=dis[i][n-1]+dis[n-2][n-1];
+    }
+    for(int i=n-3;i>=1;i--){
+        for(int j=i-1;j>=0;j--){
+            dp[i][j]=min(dp[i+1][j]+dis[i+1][i],dp[i+1][i]+dis[j][i+1]);
+        }
+    }
+    double ans=INF;
+   // for(int i=1;i<n-1;i++){
+   //     ans=min(ans,dp[i][0]+dis[i][0]);
+   // }
+    printf("%.2f\n",dp[1][0]+dis[1][0]);
+    }
+    return 0;
+
+}
