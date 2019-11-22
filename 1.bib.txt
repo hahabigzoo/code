@@ -1,0 +1,348 @@
+@article{DBLP:journals/tifs/Arora0JP16,
+  author    = {Sunpreet S. Arora and
+               Kai Cao and
+               Anil K. Jain and
+               Nicholas G. Paulter Jr.},
+  title     = {Design and Fabrication of 3D Fingerprint Targets},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {11},
+  number    = {10},
+  pages     = {2284--2297},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/TIFS.2016.2581306},
+  doi       = {10.1109/TIFS.2016.2581306},
+  timestamp = {Fri, 27 Oct 2017 15:07:26 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tifs/Arora0JP16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/EngelsmaAJJ17,
+  author    = {Joshua J. Engelsma and
+               Sunpreet S. Arora and
+               Anil K. Jain and
+               Nicholas G. Paulter Jr.},
+  title     = {Universal 3D Wearable Fingerprint Targets: Advancing Fingerprint Reader
+               Evaluations},
+  journal   = {CoRR},
+  volume    = {abs/1705.07972},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.07972},
+  archivePrefix = {arXiv},
+  eprint    = {1705.07972},
+  timestamp = {Mon, 13 Aug 2018 16:46:22 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/EngelsmaAJJ17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/btas/2018,
+  title     = {9th {IEEE} International Conference on Biometrics Theory, Applications
+               and Systems, {BTAS} 2018, Redondo Beach, CA, USA, October 22-25, 2018},
+  publisher = {{IEEE}},
+  year      = {2018},
+  url       = {https://ieeexplore.ieee.org/xpl/conhome/8692576/proceeding},
+  isbn      = {978-1-5386-7180-1},
+  timestamp = {Wed, 16 Oct 2019 14:14:51 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/btas/2018},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/tifs/RoyMR17,
+  author    = {Aditi Roy and
+               Nasir D. Memon and
+               Arun Ross},
+  title     = {MasterPrint: Exploring the Vulnerability of Partial Fingerprint-Based
+               Authentication Systems},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {12},
+  number    = {9},
+  pages     = {2013--2025},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/TIFS.2017.2691658},
+  doi       = {10.1109/TIFS.2017.2691658},
+  timestamp = {Wed, 26 Jul 2017 18:01:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tifs/RoyMR17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/biosig/ParkKLKK16,
+  author    = {Eunsoo Park and
+               Weonjin Kim and
+               Qiongxiu Li and
+               Jungmin Kim and
+               Hakil Kim},
+  title     = {Fingerprint Liveness Detection Using {CNN} Features of Random Sample
+               Patches},
+  booktitle = {2016 International Conference of the Biometrics Special Interest Group,
+               {BIOSIG} 2016, Darmstadt, Germany, September 21-23, 2016},
+  pages     = {321--328},
+  year      = {2016},
+  crossref  = {DBLP:conf/biosig/2016},
+  url       = {https://doi.org/10.1109/BIOSIG.2016.7736923},
+  doi       = {10.1109/BIOSIG.2016.7736923},
+  timestamp = {Thu, 14 Nov 2019 16:35:27 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/biosig/ParkKLKK16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1908-00102,
+  author    = {Tarang Chugh and
+               Anil K. Jain},
+  title     = {{OCT} Fingerprints: Resilience to Presentation Attacks},
+  journal   = {CoRR},
+  volume    = {abs/1908.00102},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1908.00102},
+  archivePrefix = {arXiv},
+  eprint    = {1908.00102},
+  timestamp = {Fri, 09 Aug 2019 12:15:56 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1908-00102},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1803-07830,
+  author    = {Eunsoo Park and
+               Xuenan Cui and
+               Weonjin Kim and
+               Hakil Kim},
+  title     = {End-to-End Fingerprints Liveness Detection using Convolutional Networks
+               with Gram module},
+  journal   = {CoRR},
+  volume    = {abs/1803.07830},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1803.07830},
+  archivePrefix = {arXiv},
+  eprint    = {1803.07830},
+  timestamp = {Mon, 13 Aug 2018 16:47:30 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1803-07830},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/tifs/ParkCNK19,
+  author    = {Eunsoo Park and
+               Xuenan Cui and
+               Thi Hai Binh Nguyen and
+               Hakil Kim},
+  title     = {Presentation Attack Detection Using a Tiny Fully Convolutional Network},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {14},
+  number    = {11},
+  pages     = {3016--3025},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/TIFS.2019.2907184},
+  doi       = {10.1109/TIFS.2019.2907184},
+  timestamp = {Thu, 08 Aug 2019 11:07:23 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tifs/ParkCNK19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{DBLP:journals/tifs/NogueiraLM16,
+  author    = {Rodrigo Frassetto Nogueira and
+               Roberto de Alencar Lotufo and
+               Rubens Campos Machado},
+  title     = {Fingerprint Liveness Detection Using Convolutional Neural Networks},
+  journal   = {{IEEE} Trans. Information Forensics and Security},
+  volume    = {11},
+  number    = {6},
+  pages     = {1206--1213},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/TIFS.2016.2520880},
+  doi       = {10.1109/TIFS.2016.2520880},
+  timestamp = {Sun, 28 May 2017 13:17:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tifs/NogueiraLM16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/prl/MarascoS12,
+  author    = {Emanuela Marasco and
+               Carlo Sansone},
+  title     = {Combining perspiration- and morphology-based static features for fingerprint
+               liveness detection},
+  journal   = {Pattern Recognition Letters},
+  volume    = {33},
+  number    = {9},
+  pages     = {1148--1156},
+  year      = {2012},
+  url       = {https://doi.org/10.1016/j.patrec.2012.01.009},
+  doi       = {10.1016/j.patrec.2012.01.009},
+  timestamp = {Wed, 14 Nov 2018 10:49:49 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/prl/MarascoS12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:journals/corr/SimonyanZ14a,
+  author    = {Karen Simonyan and
+               Andrew Zisserman},
+  title     = {Very Deep Convolutional Networks for Large-Scale Image Recognition},
+  booktitle = {3rd International Conference on Learning Representations, {ICLR} 2015,
+               San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings},
+  year      = {2015},
+  crossref  = {DBLP:conf/iclr/2015},
+  url       = {http://arxiv.org/abs/1409.1556},
+  timestamp = {Wed, 17 Jul 2019 10:40:54 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/SimonyanZ14a},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/cvpr/SzegedyLJSRAEVR15,
+  author    = {Christian Szegedy and
+               Wei Liu and
+               Yangqing Jia and
+               Pierre Sermanet and
+               Scott E. Reed and
+               Dragomir Anguelov and
+               Dumitru Erhan and
+               Vincent Vanhoucke and
+               Andrew Rabinovich},
+  title     = {Going deeper with convolutions},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}
+               2015, Boston, MA, USA, June 7-12, 2015},
+  pages     = {1--9},
+  year      = {2015},
+  crossref  = {DBLP:conf/cvpr/2015},
+  url       = {https://doi.org/10.1109/CVPR.2015.7298594},
+  doi       = {10.1109/CVPR.2015.7298594},
+  timestamp = {Wed, 16 Oct 2019 14:14:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cvpr/SzegedyLJSRAEVR15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wifs/DingR16,
+  author    = {Yaohui Ding and
+               Arun Ross},
+  title     = {An ensemble of one-class SVMs for fingerprint spoof detection across
+               different fabrication materials},
+  booktitle = {{IEEE} International Workshop on Information Forensics and Security,
+               {WIFS} 2016, Abu Dhabi, United Arab Emirates, December 4-7, 2016},
+  pages     = {1--6},
+  year      = {2016},
+  crossref  = {DBLP:conf/wifs/2016},
+  url       = {https://doi.org/10.1109/WIFS.2016.7823572},
+  doi       = {10.1109/WIFS.2016.7823572},
+  timestamp = {Wed, 16 Oct 2019 14:14:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/wifs/DingR16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1901-03918,
+  author    = {Joshua J. Engelsma and
+               Anil K. Jain},
+  title     = {Generalizing Fingerprint Spoof Detector: Learning a One-Class Classifier},
+  journal   = {CoRR},
+  volume    = {abs/1901.03918},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1901.03918},
+  archivePrefix = {arXiv},
+  eprint    = {1901.03918},
+  timestamp = {Fri, 01 Feb 2019 13:39:59 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1901-03918},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/tbcas/ReddyKRM08,
+  author    = {P. Venkata Reddy and
+               Ajay Kumar and
+               S. Rahman and
+               Tanvir Singh Mundra},
+  title     = {A New Antispoofing Approach for Biometric Devices},
+  journal   = {{IEEE} Trans. Biomed. Circuits and Systems},
+  volume    = {2},
+  number    = {4},
+  pages     = {328--337},
+  year      = {2008},
+  url       = {https://doi.org/10.1109/TBCAS.2008.2003432},
+  doi       = {10.1109/TBCAS.2008.2003432},
+  timestamp = {Wed, 14 Nov 2018 10:45:03 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/tbcas/ReddyKRM08},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/biosig/SousedikBB13,
+  author    = {Ctirad Sousedik and
+               Ralph Breithaupt and
+               Christoph Busch},
+  title     = {Volumetric Fingerprint Data Analysis using Optical Coherence Tomography},
+  booktitle = {2013 {BIOSIG} - Proceedings of the 12th International Conference of
+               Biometrics Special Interest Group, Darmstadt, Germany, September 4-6,
+               2013},
+  pages     = {51--62},
+  year      = {2013},
+  crossref  = {DBLP:conf/biosig/2013},
+  url       = {https://dl.gi.de/20.500.12116/17691},
+  timestamp = {Thu, 14 Nov 2019 16:35:27 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/biosig/SousedikBB13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/access/Goicoechea-Telleria19,
+  author    = {Ines Goicoechea{-}Telleria and
+               Kiyoshi Kiyokawa and
+               Judith Liu{-}Jimenez and
+               Raul S{\'{a}}nchez{-}Reillo},
+  title     = {Low-Cost and Efficient Hardware Solution for Presentation Attack Detection
+               in Fingerprint Biometrics Using Special Lighting Microscopes},
+  journal   = {{IEEE} Access},
+  volume    = {7},
+  pages     = {7184--7193},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/ACCESS.2018.2888905},
+  doi       = {10.1109/ACCESS.2018.2888905},
+  timestamp = {Wed, 13 Feb 2019 23:02:09 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/access/Goicoechea-Telleria19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icb/BaldisserraFMM06,
+  author    = {Denis Baldisserra and
+               Annalisa Franco and
+               Dario Maio and
+               Davide Maltoni},
+  title     = {Fake Fingerprint Detection by Odor Analysis},
+  booktitle = {Advances in Biometrics, International Conference, {ICB} 2006, Hong
+               Kong, China, January 5-7, 2006, Proceedings},
+  pages     = {265--272},
+  year      = {2006},
+  crossref  = {DBLP:conf/icb/2006},
+  url       = {https://doi.org/10.1007/11608288\_36},
+  doi       = {10.1007/11608288\_36},
+  timestamp = {Thu, 17 Oct 2019 12:39:20 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icb/BaldisserraFMM06},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{inproceedings,
+author = {Marasco, Emanuela and Wild, Peter and Cukic, Bojan},
+year = {2016},
+month = {05},
+pages = {1-6},
+title = {Robust and interoperable fingerprint spoof detection via convolutional neural networks},
+doi = {10.1109/THS.2016.7568925}
+}
+
+@article{article1,
+author = {Zam, Azhar and Dsouza, Roshan and Molly Subhash, Hrebesh and O'Connell, Marie-Louise and Enfield, Joey and Larin, Kirill and Leahy, Martin},
+year = {2013},
+month = {09},
+pages = {},
+title = {Feasibility of correlation mapping optical coherence tomography (cmOCT) for anti-spoof sub-surface fingerprinting},
+volume = {6},
+journal = {Journal of biophotonics},
+doi = {10.1002/jbio.201200231}
+}
+
+@article{article2,
+author = {Moon, Yiu and Chen, Jiansheng and Chan, K.C. and So, Kwok-Fai and Woo, K.C.},
+year = {2005},
+month = {10},
+pages = {1112 - 1113},
+title = {Wavelet based fingerprint liveness detection},
+volume = {41},
+journal = {Electronics Letters},
+doi = {10.1049/el:20052577}
+}
+
+
+
